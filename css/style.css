@@ -34,13 +34,15 @@
     width: 50px;
     padding: 50px;
     color: red;
-    display: flex;
     justify-content: center;
     height: 50px;
-    display: none;
     align-items: center;
     background: none;
+    display: none;
     
+}
+.menus{
+    display: flex;
 }
 
 .container h1{
@@ -385,25 +387,27 @@ h2{
 
 
     body{
-        width: min-content;
+        width: fit-content;
         flex-direction: column;
     }
     .menu a{
         display: none;
     }
-    .btn{
-        flex-direction: column;
+    .btn {
         display: flex;
         top: 0;
         border: none;
+        text-align: center;
     }
     .menu a{
         position: absolute;
-        right:0;
+        top: 0px;
+        right:0px;
         flex-direction: column;
         background-color: aqua;
     }
     .container1{
+        width: fit-content;
         height: min-content;
         flex-direction: column-reverse;
         align-items: center;
@@ -412,6 +416,11 @@ h2{
         width: 100%;
         font-size: 20px;
         padding: 10px;
+    }
+    .stock{
+        position: absolute;
+        right: 0%;
+        bottom: 0%;
     }
     .title button{
         display: flex;
