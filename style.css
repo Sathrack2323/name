@@ -34,15 +34,13 @@
     width: 50px;
     padding: 50px;
     color: red;
+    display: flex;
     justify-content: center;
     height: 50px;
+    /* display: none; */
     align-items: center;
     background: none;
-    display: none;
     
-}
-.menus{
-    display: flex;
 }
 
 .container h1{
@@ -387,27 +385,31 @@ h2{
 
 
     body{
-        width: fit-content;
+        width: min-content;
         flex-direction: column;
     }
-    .menu a{
-        display: none;
-    }
-    .btn {
-        display: flex;
+     .menu a{
+        /* display: none; */
+     }  
+    .btn{
+        /* flex-direction: column;
+        display: flex; */
         top: 0;
         border: none;
-        text-align: center;
+    }
+    .container{
+        position: relative;
     }
     .menu a{
+        width: 50%;
+        height:100px;
+        display: flex;
         position: absolute;
-        top: 0px;
-        right:0px;
+        right:0;
         flex-direction: column;
         background-color: aqua;
     }
     .container1{
-        width: fit-content;
         height: min-content;
         flex-direction: column-reverse;
         align-items: center;
@@ -416,11 +418,6 @@ h2{
         width: 100%;
         font-size: 20px;
         padding: 10px;
-    }
-    .stock{
-        position: absolute;
-        right: 0%;
-        bottom: 0%;
     }
     .title button{
         display: flex;
