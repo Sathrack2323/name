@@ -18,7 +18,7 @@
     function openMenu() {
       // alert("hi da macha")
       if (document.getElementById("menus").style.display === "none") {
-        document.getElementById("menus").style.display == "flex";
+        document.getElementById("menus").style.display = "flex";
       } else {
         document.getElementById("menus").style.display = "none";
       }
@@ -72,16 +72,16 @@
       <div class="nav">
         <div id="menus" class="menu">
           <a href="#HOME">HOME</a>
-         <a href="#service">SERVICES</a>
+          <a href="#service">SERVICES</a>
           <a href="#pro">PROCESS</a>
           <a href="#cont">CONTACT US</a>
           <a href="#login">LOG IN</a>
          </div>
-        </div>
-      <button onclick="openMenu()" class="btn">
+         </div>
+         <a href="javascript:void(0);" class="btn" onclick="openMenu()">
             <i class="fa-solid fa-bars"></i>
-          </button>
-    </div>
+          </a>
+      </div>
     <!-- title 0 -->
     <div class="container1" id="HOME">
       <div class="title">
