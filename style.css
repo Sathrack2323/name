@@ -108,10 +108,11 @@ button:hover{
 }
 .container1 .pic{
    transition: 500ms;
+   filter: drop-shadow(30px 6px 5px #0b192c);
 }
 .pic:hover{
      filter:drop-shadow( 5px 5px 5px  #ff6200 );             
-     scale: 0.9;
+     scale:0.7;
 }
 .container2{
     width: 100%;
@@ -331,10 +332,9 @@ h2{
     background-color:#0b192c;
     display: flex;
     color: #FA902E;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     border-top: 40px solid #1E3E62;
-    gap: 10px;
-
 }
 .link{
     display: flex;
@@ -413,31 +413,37 @@ h2{
     }
     .title button{
         display: flex;
-        margin-left: 70px;
-        width: 70%;
+        margin-left: 20px;
+        width: 50%;
         font-size: 20px;
+        /* align-items: center; */
         justify-content: center;
        
     }
     .title p{
         font-size: 20px;
     }
-    .container2 img{
-        width: 200px;
-        height: 300px;
+    .pic1 img{
+        width:200%;
+        margin-left:-130px;
     }
     .container2{
-        display: flex;
-        height:min-content;
+        height:100%;
+        width: fit-content;
         flex-direction: column;
     }
+    .title2 p{
+        margin-left: -120px;
+    }
      .title2 ul {
-       width: 100%;
-        font-size: 17px;
+       width: 200%;
+        font-size: 25px;
+        margin-left: -120px;
     }
     .title2 h2{
         font-size: 40px;
-
+        width:500px;
+        margin-left: -100px;
     }
     .container3{
         height: max-content;
@@ -471,8 +477,20 @@ h2{
         justify-content:flex-start;
         align-items:flex-end;
     }
+    .container7,.container6,.container5,.container4{
+        width: 100%;
+        background-color: #1E3E62;
+        color:whitesmoke;
+        line-height: 30px;
+        padding: 30px;
+    }
     .stock{
         width: min-content;
         display: flex;
+    }
+    .link a{
+        font-size: 33px;
+        /* padding: 40px; */
+        width: 100%;
     }
 }
