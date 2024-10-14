@@ -35,12 +35,8 @@ body{
     position: relative;
 }
 .btn{
-    padding: 17px;
    display: none;
-    align-items: center;
-    background-color: wheat;
-    color: #FA902E;
-    
+    color:#1E3E62;    
 }
 
 .container h1{
@@ -49,12 +45,6 @@ body{
     color:#1E3E62;
     filter: drop-shadow(2px  2px 4px  #1e3e62);
     letter-spacing: 7px;
-}
-.nav{
-    width: 100%;
-    display: flex;
-    /* position: relative; */
-    justify-content: end;
 }
 .menu a{
     text-decoration: none;
@@ -382,35 +372,34 @@ h2{
 }
 
 
-@media only screen and (min-width:300px) and (max-width:790px) {
+@media only screen and (max-width:790px) {
 
 
     body{
-        width:min-content;
+        width:fit-content;
         flex-direction: column;
-        position:absolute;
     }
     .menu{
         display: none;
     }
     .nav .menu{
-        display: flex;
         flex-direction: column;
-        width:100%;
         height:0;
+        width:80%;
+        margin-top: 30px;
+        display: none;
     }
     .btn{
-        display: inline;
+        display:flex;
         position: relative;
-        right: 20px;
+        right: 50px;
     }
    .menu a{
-        /* width:min-content; */
-        padding: 5px;
-        width: 170px;
-        right:0px;
-        top: 10px;
-        background-color: aqua;
+        padding: 4px;
+        margin: 5px;
+        width: 120px;
+        color: #FA902E;
+        background-color: #0b192c;
     }
     .container1{
         height: min-content;
@@ -450,9 +439,6 @@ h2{
         font-size: 40px;
 
     }
-    .title2 p{
-      display: none;
-    }
     .container3{
         height: max-content;
         width: 100%;
@@ -485,10 +471,8 @@ h2{
         justify-content:flex-start;
         align-items:flex-end;
     }
-    .container0 p{
-        overflow: hidden;
-    }
     .stock{
         width: min-content;
+        display: flex;
     }
 }
