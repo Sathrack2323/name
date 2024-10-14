@@ -36,9 +36,9 @@ body{
 }
 .btn{
    display: none;
-    color:#1E3E62;    
+    color:#1E3E62; 
+    font-size: 40px; 
 }
-
 .container h1{
     text-indent: 40px;
     font-size: 40px;
@@ -385,20 +385,21 @@ h2{
     .nav .menu{
         flex-direction: column;
         height:0;
-        width:80%;
-        margin-top: 30px;
+        margin-top: 50px;
         display: none;
     }
     .btn{
         display:flex;
         position: relative;
-        right: 50px;
+        right: 70px;
     }
    .menu a{
-        padding: 4px;
-        margin: 5px;
-        width: 120px;
-        color: #FA902E;
+        padding: 24px;
+        font-size: 22px;
+        border-radius: 10px;
+        margin: 1px;
+        width: 200px;
+        color: whitesmoke;
         background-color: #0b192c;
     }
     .container1{
